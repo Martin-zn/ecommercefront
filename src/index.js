@@ -1,21 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MyButton from './components/MyButton';
-import Example from './components/Products';
+import Products from './components/Products';
+import Navbar from './components/Navbar';
+import PrincipalView from './components/PrincipalView'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <div>
-      <h1>Prueba</h1>
-      <MyButton />
-      <button>analytics</button>
-    </div> */}
-    
-    <Example />
+
+    <Navbar />
+    <PrincipalView />
+    <h2 className='textCenter'>PRODUCTOS</h2>
+    <Products />
     
 
 

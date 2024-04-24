@@ -1,19 +1,19 @@
 export const products = [
     {
       id: 1,
-      name: 'Earthen Bottle',
+      name: 'Cheems',
       href: '#',
-      price: '$48',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-      imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+      price: '$100',
+      imageSrc: 'https://http2.mlstatic.com/D_NQ_NP_657127-MLM53831962590_022023-O.webp',
+      imageAlt: 'Juguete articulado de cheems.',
     },
     {
       id: 2,
-      name: 'Nomad Tumbler',
+      name: 'Taza cheems',
       href: '#',
       price: '$35',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-      imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+      imageSrc: 'https://http2.mlstatic.com/D_NQ_NP_606071-MLC73202680695_122023-O.webp',
+      imageAlt: 'Una muy buena taza.',
     },
     {
       id: 3,
