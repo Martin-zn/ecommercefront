@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Products from './components/Products';
 import Navbar from './components/Navbar';
 import PrincipalView from './components/PrincipalView'
+import PieDePagina from './components/PieDePagina'
+import { MyProducts } from './components/MyProducts';
+import Categories from './components/Categories';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,8 +15,16 @@ root.render(
 
     <Navbar />
     <PrincipalView />
-    <h2 className='textCenter'>PRODUCTOS</h2>
-    <Products />
+    <div className= 'title-container'>
+
+    <h2 className= 'cs-title'>PRODUCTOS DESTACADOS</h2>
+    </div>
+    <MyProducts />
+
+    <Categories />
+
+
+    <PieDePagina /> 
     
 
 
